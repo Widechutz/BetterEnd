@@ -58,7 +58,7 @@ public class AncientEmeraldIceBlock extends BaseBlock {
     }
 
     private void makeParticles(ServerLevel world, BlockPos pos, RandomSource random) {
-        world.sendParticles(
+        /*world.sendParticles(
                 EndParticles.SNOWFLAKE,
                 pos.getX() + 0.5,
                 pos.getY() + 0.5,
@@ -68,7 +68,7 @@ public class AncientEmeraldIceBlock extends BaseBlock {
                 0.5,
                 0.5,
                 0
-        );
+        );*/
     }
 
     @Override
